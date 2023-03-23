@@ -1,0 +1,15 @@
+JWT (Jason Web Token) - it used for Authentication, 
+(During sing in time it generates token, & during verification the Server use these to verify).
+
+bcrypt - Used to Encrypt the User's Sensitive Data (such as Password, Credit Card).
+
+dotenv - reading app Environment variable data
+
+express - Web Framework for NodeJS.
+
+nodemon - it is a Development Tool (Watch Mode).
+
+Mongoose - to Connect Mongo DB with Chima Basis.
+
+Chalk - Terminal Styling (coloring).
+

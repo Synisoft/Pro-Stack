@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        function salary(LPA) {
+            return (LPA * 100000) / 12
+
+        }
+
+        function display() {
+            let write = document.getElementById('write');
+
+            let result = salary(write.value);
+            alert(result + "Thousands per month.");
+        }
+
+    </script>
+</head>
+
+
+<body style="background-color: grey;">
+
+
+
+
+    <div class="container"
+        style="border: 2px solid  white ; text-align: center; border-radius: 10px; width: 500px; background-color: rgb(156, 156, 142); margin: auto; margin-top: 200px;">
+
+        <form>
+
+            <h1>LPA CALCULATOR</h1><br>
+            <label>Enter your LPA Here</label><br><br>
+            <input type="text" id="write"><br><br>
+
+
+            <button type="submit" onclick="display()">Submit</button> <button type="reset">Clear</button><br><br>
+
+
+        </form>
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>

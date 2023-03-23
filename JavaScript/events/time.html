@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script>
+
+        setInterval(() => {
+
+            let a = new Date();
+        let date = a.toLocaleDateString(undefined, Option)
+        let time = a.getHours() + ':' + a.getMinutes() +':'+ a.getSeconds()
+        document.getElementById('time').innerHTML = time +"<br><br><b>Current Date </b><br><br> " + date;
+            setInterval
+        }, 1000);
+        
+
+    </script>
+
+
+</head>
+<body>
+
+    
+    <div class="container my-5 text-center">
+
+        <div class="card" style="width: 35rem;">
+
+            <div class="card-body">
+
+                <div class="jumbotron">
+                    <h1 class="display-4" ><b style="color: red;">Current Time </b><br><br><span  id="time"></span></h1>
+                    <p class="lead"></p>
+                    
+                  </div>
+                
+              </div>
+    
+        
+        
+        </div>
+
+       
+        
+
+
+    </div>
+ 
+</body>
+</html>
